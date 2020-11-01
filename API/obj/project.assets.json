@@ -1036,23 +1036,24 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.EntityFrameworkCore >= 3.1.9",
+      "Microsoft.EntityFrameworkCore.Analyzers >= 3.1.9",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.9"
     ]
   },
   "packageFolders": {
-    "/home/kimono/.nuget/packages/": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kimono/source/repos/skinet31/API/API.csproj",
+      "projectUniqueName": "/root/source/repos/skinet31/API/API.csproj",
       "projectName": "API",
-      "projectPath": "/home/kimono/source/repos/skinet31/API/API.csproj",
-      "packagesPath": "/home/kimono/.nuget/packages/",
-      "outputPath": "/home/kimono/source/repos/skinet31/API/obj/",
+      "projectPath": "/root/source/repos/skinet31/API/API.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/root/source/repos/skinet31/API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/kimono/.nuget/NuGet/NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -1075,6 +1076,10 @@
       "netcoreapp3.1": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[3.1.9, )"
+          },
+          "Microsoft.EntityFrameworkCore.Analyzers": {
             "target": "Package",
             "version": "[3.1.9, )"
           },
@@ -1101,7 +1106,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
       }
     }
   }
